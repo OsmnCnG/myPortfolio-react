@@ -38,7 +38,7 @@ const Services = () => {
 
             <motion.div className="titleContainer" variants={variants}>
                 <div className="title">
-                    <img src="/helloworld.jpeg" alt="" />
+                    <img src="helloworld.jpeg" alt="" />
                     <h1>
                         <b>The</b> Technologies
                     </h1>
@@ -54,26 +54,18 @@ const Services = () => {
 
             <div className="listContainer" variants={variants}>
                 <motion.div className="box" whileHover={{color:"black", scale:1.05}}>
-                    <img src="/java_logo.png" alt=""/>
+                    <img src="java_logo.png" alt=""/>
                 </motion.div>
                 <motion.div className="box" whileHover={{color:"black", scale:1.05}}>
-                    <img src="/spring_logo_preview_rev_1.png" alt="" />
+                    <img src="spring_logo_preview_rev_1.png" alt="" />
                 </motion.div>
                 <motion.div className="box" whileHover={{color:"black", scale:1.05}}>
-                    <img src="/react_logo.png" alt="" />
+                    <img src="react_logo.png" alt="" />
                 </motion.div>
                 <motion.div className="box" whileHover={{color:"black", scale:0.9}}>
-                    <img src="/js_logo_preview_rev_1.png" alt="" />
+                    <img src="js_logo_preview_rev_1.png" alt="" />
                 </motion.div>
             </div>
-            
-
-        {/* <div>
-            <p>
-                Electrical & Electronics Engineering final year student. My goal is to train myself as a full-stack developer. I want to experience professional business life by doing internship.
-                I have experience working with Java, Javascript, React, PostgreSQL, Html & Css.
-            </p>
-        </div> */}
 
 
         </motion.div>

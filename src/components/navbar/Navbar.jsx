@@ -13,9 +13,9 @@ const Navbar = () => {
                 transition={{duration:0.5}}
                 >Code & Can</motion.span>
                 <div className="socialAccount">
-                    <a href="https://github.com/OsmnCnG" target="blank"><img src="/github.png" alt="" /></a>
-                    <a href="https://www.instagram.com/osmnn.c/" target="blank"><img src="/instagram.png" alt="" /></a>
-                    <a href="https://www.facebook.com/profile.php?id=100094221262071" target="blank"><img src="/facebook.png" alt="" /></a>
+                    <a href="https://github.com/OsmnCnG" target="blank"><img src="github.png" alt="" /></a>
+                    <a href="https://www.instagram.com/osmnn.c/" target="blank"><img src="instagram.png" alt="" /></a>
+                    <a href="https://www.facebook.com/profile.php?id=100094221262071" target="blank"><img src="facebook.png" alt="" /></a>
 
                 </div>
             </div>
