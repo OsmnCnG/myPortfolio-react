@@ -37,6 +37,10 @@
             }
         }
 
+        span{
+            font-weight: 300;
+        }
+
         .item{
             @include mobile {
                 font-size: 14px;

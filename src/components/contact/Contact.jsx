@@ -4,28 +4,25 @@ import "./contact.scss"
 import {motion, useInView} from "framer-motion"
 import emailjs from '@emailjs/browser';
 
+const variants = {
+    initial: {
+        y:500,
+        opacity:0,
+    },
+    animate: {
+        y:0,
+        opacity:1,
+        transition: {
+            duration:0.5,
+            staggerChildren:0.1,
+        },
+    },
+};
 
 const Contact = () => {
 
     const [error, setError] = useState(false)
     const [success, setSuccess] = useState(false)
-
-    
-
-    const variants = {
-        initial: {
-            y:500,
-            opacity:0,
-        },
-        animate: {
-            y:0,
-            opacity:1,
-            transition: {
-                duration:0.5,
-                staggerChildren:0.1,
-            },
-        },
-    };
 
     const ref = useRef()
     const formRef = useRef()
@@ -77,7 +74,9 @@ const Contact = () => {
                 
 
                     <svg width="450px" height="450px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ff6524" transform="rotate(0)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.048"></g><g id="SVGRepo_iconCarrier"> 
-                        <motion.path 
+                        <motion.path
+                            strokeWidth={0.2}
+                            fill="none" 
                             initial={{pathLength:0}}
                             animate={isInView && {pathLength:1}}
                             transition={{duration:3}}
